@@ -12,7 +12,7 @@
         <label class="font-semibold" for="add-name">Name: </label>
         <input
           v-model.trim="task.name"
-          class="border rounded-md p-2"
+          class="border rounded-md p-2 bg-gray-50"
           id="add-name"
           required
         />
@@ -21,7 +21,7 @@
         <label class="font-semibold" for="add-description">Description: </label>
         <textarea
           v-model.trim="task.desc"
-          class="border rounded-md p-2"
+          class="border rounded-md p-2 bg-gray-50"
           id="add-description"
           rows="5"
         ></textarea>
@@ -30,7 +30,7 @@
         <label class="font-semibold" for="select-level">Level: </label>
         <select
           v-model="task.level"
-          class="border rounded-md p-2"
+          class="border rounded-md p-2 bg-gray-50"
           id="select-level"
           required
         >
